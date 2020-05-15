@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imgtp"
+        android:layout_margin="3dp"
+        android:scaleType="fitXY"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <TextView
+        android:id="@+id/txttentp"
+        android:textSize="18sp"
+        android:textColor="#0a0a0a"
+        android:text="Ten Tac Pham"
+        android:layout_toRightOf="@+id/imgtp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:maxWidth="250dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txttacgia"
+        android:textSize="18sp"
+        android:textColor="#7A7878"
+        android:text="tac Gia"
+        android:layout_below="@+id/txttentp"
+        android:layout_toRightOf="@+id/imgtp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:maxWidth="250dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtdiendoc"
+        android:textSize="18sp"
+        android:textColor="#7A7878"
+        android:text="Dien Doc"
+        android:layout_below="@+id/txttentp"
+        android:layout_toRightOf="@+id/imgtp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:maxWidth="250dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

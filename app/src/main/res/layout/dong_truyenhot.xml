@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <ImageView
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/imageviewbackgroundtruyenhot"
+        android:scaleType="fitXY"
+        android:layout_width="182dp"
+        android:layout_height="150dp" />
+
+    <View
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/imageviewbackgroundtruyenhot"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/custom_backgroud" />
+
+    <ImageView
+
+        android:id="@+id/imageviewtruyenhot"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/imageviewbackgroundtruyenhot"
+        android:layout_alignLeft="@+id/imageviewbackgroundtruyenhot"
+        android:layout_alignStart="@+id/imageviewbackgroundtruyenhot"
+        android:elevation="6dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/textviewtentruyenhot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageviewtruyenhot"
+        android:layout_alignEnd="@+id/imageviewbackgroundtruyenhot"
+        android:layout_alignRight="@+id/imageviewbackgroundtruyenhot"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/imageviewtruyenhot"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Về đi anh nơi đây em vẫn đợi."
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

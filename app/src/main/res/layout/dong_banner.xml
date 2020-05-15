@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageviewbackgroudbanner"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        />
+    <View
+        android:background="@drawable/custom_backgroud"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_alignBottom="@id/imageviewbackgroudbanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:padding="2dp"
+            android:id="@+id/imageviewbanner"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <TextView
+            android:textSize="17sp"
+            android:text="Lẽ nào em không biết"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:id="@+id/textviewtitlebanneraudio"
+            android:layout_alignTop="@id/imageviewbanner"
+            android:layout_toRightOf="@+id/imageviewbanner"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_below="@+id/textviewtitlebanneraudio"
+            android:layout_toRightOf="@+id/imageviewbanner"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textviewnoidung"
+                android:layout_marginRight="40dp"
+                android:textSize="13sp"
+                android:maxLines="2"
+                android:textColor="#fff"
+                android:text="đây là tác phẩm mới của tác giả Lan Rùa."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
